@@ -20,8 +20,3 @@ sass:
 
 # Disable when not in production
 google_analytics_tracking_id:
-
-
-# when developing offline we fallback to local styles
-
-fallbackAssets: "/assets-fallback"
