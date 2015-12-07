@@ -12,13 +12,25 @@ whitelist:
   - jekyll-redirect-from
 
 
+
+#############################################
+# Assets configuration
+#############################################
+
+# extensionless url allows to automatically switch
+# to current page protocol (http or https)
+# to avoid mixed content problems
+# distant-assets-url: "//swcarpentry.github.io/styles/"
+
+distantAssetsUrl: "//0.0.0.0:8000"
+distantAssetsPath: "/assets"
 #
-#      _____ _ __          _____      __  __  _                 
+#      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
 #     \__ \/ / __/ _ \    \__ \/ _ \/ __/ __/ / __ \/ __ `/ ___/
-#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  ) 
-#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/  
-#                                                 /____/        
+#    ___/ / / /_/  __/   ___/ /  __/ /_/ /_/ / / / / /_/ (__  )
+#   /____/_/\__/\___/   /____/\___/\__/\__/_/_/ /_/\__, /____/
+#                                                 /____/
 #
 # Title of your website
 title: "Software Carpentry"
@@ -35,11 +47,11 @@ author: gvwilson
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://dev.software-carpentry.org'
+url: 'http://0.0.0.0:4000/'
 baseurl: ''
 
 # This URL is the base for referenced files.
-filesurl: 'http://dev.software-carpentry.org/files'
+filesurl: '/files'
 
 # Software Carpentry-specific configuration values.
 # FIXME: eliminate some of these (duplicate social media information)
