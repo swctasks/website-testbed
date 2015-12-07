@@ -22,7 +22,7 @@ whitelist:
 # to avoid mixed content problems
 # distant-assets-url: "//swcarpentry.github.io/styles/"
 
-distantAssetsUrl: "//0.0.0.0:8000"
+distantAssetsUrl: "http://swctasks.github.io/assets"
 distantAssetsPath: "/assets"
 #
 #      _____ _ __          _____      __  __  _
@@ -47,7 +47,7 @@ author: gvwilson
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
-url: 'http://0.0.0.0:4000/'
+url: 'http://swctasks.github.io/assets/'
 baseurl: ''
 
 # This URL is the base for referenced files.
