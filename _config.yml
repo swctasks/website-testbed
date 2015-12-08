@@ -11,8 +11,6 @@ gems:
 whitelist:
   - jekyll-redirect-from
 
-
-
 #############################################
 # Assets configuration
 #############################################
@@ -22,8 +20,14 @@ whitelist:
 # to avoid mixed content problems
 # distant-assets-url: "//swcarpentry.github.io/styles/"
 
-distantAssetsUrl: "http://swctasks.github.io/assets"
-distantAssetsPath: "/assets"
+# repository url
+# NO TRAILING SLASH
+distantAssetsUrl: "http://swctasks.github.io"
+
+# path : "/styles"
+# NO TRAILING SLASH
+# Leave empty if assets are at the root of the domain
+distantAssetsPath: "/styles"
 #
 #      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
