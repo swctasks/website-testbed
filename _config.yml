@@ -27,7 +27,7 @@ distantAssetsUrl: "http://swctasks.github.io"
 # path : "/styles"
 # NO TRAILING SLASH
 # Leave empty if assets are at the root of the domain
-distantAssetsPath: "/styles"
+distantAssetsPath: "/styles/assets"
 #
 #      _____ _ __          _____      __  __  _
 #     / ___/(_) /____     / ___/___  / /_/ /_(_)___  ____ ______
